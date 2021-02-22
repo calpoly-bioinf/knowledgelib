@@ -25,3 +25,9 @@ def add_labels(df,distance0,label_col='Subtype'):
     distance0['label2'] = label2
     distance0['label1_label2'] = distance0['label1'] + " - "+distance0['label2']
     return distance0
+
+def subset_columns(df,L):
+    """
+    L is a list (or series) of genes
+    """
+    return df.loc[:,df.columns.isin(L)]

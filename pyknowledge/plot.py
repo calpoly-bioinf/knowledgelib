@@ -5,7 +5,7 @@ def prepare_url(source,url):
     source.to_json(url,orient='records')
 
 # use the url approach to keep notebook smaller
-def histogram_1(url,x_var,color_var,row_var,opacity=0.3):
+def histogram_1(url,x_var,color_var,row_var,opacity=0.3,file=None):
     g = alt.Chart(url).transform_calculate(
         pct='1 / datum.Count'
     ).mark_area(
@@ -17,6 +17,8 @@ def histogram_1(url,x_var,color_var,row_var,opacity=0.3):
         alt.Color('%s:N'%color_var),
         row='%s:N'%row_var
     )
+    if file is not None:
+        g.save(file)
     return g
 
 # get things in order so that LumA - LumB and LumB - LumA are reordered consistently
