@@ -44,7 +44,6 @@ def get_pathway_distances(pathways_df, genes_df_scaled, output_file=None):
         DL2 = helper(pyknowledge.distance.L2)
         DFSIGN = helper(pyknowledge.distance.FSIGN)
 
-
         D_s[f'DL1_{i}'] = DL1
         D_s[f'DL2_{i}'] = DL2
         D_s[f'DLSIGN_{i}'] = DFSIGN

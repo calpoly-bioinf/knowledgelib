@@ -76,6 +76,10 @@ class DistributionTransformer(BaseEstimator, TransformerMixin):
         chunks_pair_ixs = list(common.divide_chunks(pair_ixs,common.calc_len_chunk(len(pair_ixs),self.ncores)))
         return pd.concat(
             Parallel(n_jobs=self.ncores)(delayed(distance.chunk_distance)(X,chunk,self.distance_func) for chunk in chunks_pair_ixs))
+    
+    def fit_transform(self,X,y=None):
+        self.fit(X)
+        return self.transform(X)
 
 def standard_scale(genes_df):
     
