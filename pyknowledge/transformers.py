@@ -50,12 +50,12 @@ class ScaleTransformer( BaseEstimator, TransformerMixin ):
         return self
     
     def transform(self, X, y = None ):
-        return self.transformer.transform(X)
+        return pd.DataFrame(self.transformer.transform(X), columns = X.columns)
     
     def fit_transform(self, X, y=None):
         self.fit(X)
-        return self.transform(X)
-    
+        return pd.DataFrame(self.transform(X), columns = X.columns)
+
 class DistributionTransformer(BaseEstimator, TransformerMixin):
     distance_funcs = {
         'L1':distance.L1,
@@ -69,15 +69,23 @@ class DistributionTransformer(BaseEstimator, TransformerMixin):
         self.distance_func = self.distance_funcs[distance]
     
     def fit( self, X, y = None  ):
+        if len(self.gene_cols) > 0:
+            X = X[self.gene_cols]
         return self
     
     def transform(self, X, y = None ):
+        if len(self.gene_cols) > 0:
+            X = X[self.gene_cols]
+        
         pair_ixs = common.get_pair_inxs(X.shape[0])
         chunks_pair_ixs = list(common.divide_chunks(pair_ixs,common.calc_len_chunk(len(pair_ixs),self.ncores)))
         return pd.concat(
             Parallel(n_jobs=self.ncores)(delayed(distance.chunk_distance)(X,chunk,self.distance_func) for chunk in chunks_pair_ixs))
     
     def fit_transform(self,X,y=None):
+        if len(self.gene_cols) > 0:
+            X = X[self.gene_cols]
+            
         self.fit(X)
         return self.transform(X)
 
