@@ -37,9 +37,9 @@ def chunk_distance(df,chunk,distance_func):
     index1 = []
     index2 = []
     for ix1,ix2 in chunk:
-        index1.append(ix1)
-        index2.append(ix2)
-        distances.append(distance_func(df.loc[ix1],df.loc[ix2]))
+        index1.append(df.index[ix1])
+        index2.append(df.index[ix2])
+        distances.append(distance_func(df.iloc[ix1],df.iloc[ix2]))
     return pd.DataFrame({"distance":distances,"index1":index1,"index2":index2}).set_index(["index1","index2"])
 
 

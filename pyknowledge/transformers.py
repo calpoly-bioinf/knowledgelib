@@ -50,7 +50,7 @@ class ScaleTransformer( BaseEstimator, TransformerMixin ):
         return self
     
     def transform(self, X, y = None ):
-        return pd.DataFrame(self.transformer.transform(X), columns = X.columns)
+        return pd.DataFrame(self.transformer.transform(X), columns = X.columns,index=X.index)
     
     def fit_transform(self, X, y=None):
         self.fit(X)
@@ -64,7 +64,7 @@ class DistributionTransformer(BaseEstimator, TransformerMixin):
     }
     def __init__(self,gene_cols=[],ncores=6,distance='L1'):
         self.ncores = ncores
-        self.gene_cols = gene_cols
+        self.gene_cols = list(gene_cols)
         self.distance = distance
         self.distance_func = self.distance_funcs[distance]
     
