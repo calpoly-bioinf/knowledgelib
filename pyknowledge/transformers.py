@@ -55,6 +55,41 @@ class ScaleTransformer( BaseEstimator, TransformerMixin ):
     def fit_transform(self, X, y=None):
         self.fit(X)
         return pd.DataFrame(self.transform(X), columns = X.columns)
+    
+class FeatureSelector(BaseEstimator, TransformerMixin):
+    def __init__(self, columns=None):
+        self.columns = columns
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X, y=None):
+        return X[self.columns]
+    
+from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+class KNNTransformer(BaseEstimator, TransformerMixin):
+    def __init__(self, k=3, classes = None):
+        self.k = k
+        self.classes = classes
+
+    def fit(self, X, y=None):
+        self.neigh = KNeighborsClassifier(n_neighbors=self.k)
+        self.neigh.fit(X, y)
+        self.y = y
+        return self
+
+    def transform(self, X, y=None):
+        distances, indices = self.neigh.kneighbors(X, n_neighbors=self.k+1, return_distance=True)
+        if np.sum(distances[:,0]) == 0:
+            distances = distances[:,1:]
+            indices = indices[:,1:]
+        else:
+            distances = distances[:,:-1]
+            indices = indices[:,:-1]
+        labels = self.y.iloc[indices.flat].values.reshape(indices.shape)
+        return distances, indices, labels
 
 class DistributionTransformer(BaseEstimator, TransformerMixin):
     distance_funcs = {

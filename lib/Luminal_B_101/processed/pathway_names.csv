@@ -1,0 +1,489 @@
+,Pathway name
+0,Transcriptional Regulation by TP53
+1,Cell Cycle
+2,TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest
+3,Gene expression (Transcription)
+4,RNA Polymerase II Transcription
+5,HDR through Homologous Recombination (HRR)
+6,TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation
+7,Resolution of D-loop Structures through Holliday Junction Intermediates
+8,Aberrant regulation of mitotic cell cycle due to RB1 defects
+9,RUNX3 regulates WNT signaling
+10,Resolution of D-Loop Structures
+11,Diseases of mitotic cell cycle
+12,G0 and Early G1
+13,Generic Transcription Pathway
+14,"Cell Cycle, Mitotic"
+15,Transcriptional Regulation by VENTX
+16,Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors
+17,"Defective binding of RB1 mutants to E2F1,(E2F2, E2F3)"
+18,Aberrant regulation of mitotic G1/S transition in cancer due to RB1 defects
+19,Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1
+20,TP53 Regulates Transcription of Cell Cycle Genes
+21,RHO GTPases activate CIT
+22,HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)
+23,TP53 Regulates Metabolic Genes
+24,Diseases of DNA Double-Strand Break Repair
+25,Defective DNA double strand break response due to BRCA1 loss of function
+26,"Defective SLC39A4 causes acrodermatitis enteropathica, zinc-deficiency type (AEZ)"
+27,Defective DNA double strand break response due to BARD1 loss of function
+28,Homology Directed Repair
+29,Cell Cycle Checkpoints
+30,Estrogen-dependent nuclear events downstream of ESR-membrane signaling
+31,Signaling by Rho GTPases
+32,G2/M DNA damage checkpoint
+33,Mitophagy
+34,TP53 Regulates Transcription of DNA Repair Genes
+35,Selective autophagy
+36,Transport of Mature Transcript to Cytoplasm
+37,Meiosis
+38,RHO GTPase Effectors
+39,Regulation of TP53 Activity through Phosphorylation
+40,HDR through Single Strand Annealing (SSA)
+41,DNA Double-Strand Break Repair
+42,Presynaptic phase of homologous DNA pairing and strand exchange
+43,Mitotic G1 phase and G1/S transition
+44,Fanconi Anemia Pathway
+45,Regulation of TP53 Activity
+46,Homologous DNA Pairing and Strand Exchange
+47,Deactivation of the beta-catenin transactivating complex
+48,S Phase
+49,Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes
+50,Transport of Mature mRNA Derived from an Intronless Transcript
+51,Transcriptional Regulation by E2F6
+52,Transport of Mature mRNAs Derived from Intronless Transcripts
+53,Toxicity of botulinum toxin type C (botC)
+54,Cyclin D associated events in G1
+55,G1 Phase
+56,PTK6 Regulates Cell Cycle
+57,Reproduction
+58,Mitotic Prometaphase
+59,mRNA 3'-end processing
+60,Meiotic recombination
+61,RHO GTPases Activate Rhotekin and Rhophilins
+62,Neurexins and neuroligins
+63,Synthesis of DNA
+64,SCF(Skp2)-mediated degradation of p27/p21
+65,Meiotic synapsis
+66,Zinc influx into cells by the SLC39 gene family
+67,M Phase
+68,Synthesis of PA
+69,DNA Replication
+70,GP1b-IX-V activation signalling
+71,Unwinding of DNA
+72,Inactivation of CDC42 and RAC1
+73,WNT mediated activation of DVL
+74,AKT phosphorylates targets in the nucleus
+75,NOTCH4 Activation and Transmission of Signal to the Nucleus
+76,RNA Polymerase II Transcription Termination
+77,Receptor Mediated Mitophagy
+78,tRNA processing in the nucleus
+79,DNA Damage/Telomere Stress Induced Senescence
+80,Macroautophagy
+81,Regulation of localization of FOXO transcription factors
+82,Utilization of Ketone Bodies
+83,LGI-ADAM interactions
+84,G2/M Checkpoints
+85,CDK-mediated phosphorylation and removal of Cdc6
+86,Reduction of cytosolic Ca++ levels
+87,Condensation of Prometaphase Chromosomes
+88,Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex
+89,Diseases of DNA repair
+90,Activated NTRK2 signals through FRS2 and FRS3
+91,RUNX3 regulates p14-ARF
+92,Transport of Mature mRNA derived from an Intron-Containing Transcript
+93,Recruitment of mitotic centrosome proteins and complexes
+94,SUMOylation of DNA damage response and repair proteins
+95,Signaling by FGFR3 fusions in cancer
+96,Frs2-mediated activation
+97,Vitamin B2 (riboflavin) metabolism
+98,Chromatin organization
+99,Chromatin modifying enzymes
+100,Autophagy
+101,Centrosome maturation
+102,Retrograde neurotrophin signalling
+103,Zinc transporters
+104,DNA Repair
+105,Processing of Intronless Pre-mRNAs
+106,Signaling by FGFR4 in disease
+107,Activation of BAD and translocation to mitochondria 
+108,Cyclin E associated events during G1/S transition 
+109,Phosphorylation of the APC/C
+110,Aberrant regulation of mitotic exit in cancer due to RB1 defects
+111,Class I peroxisomal membrane protein import
+112,Prolonged ERK activation events
+113,KSRP (KHSRP) binds and destabilizes mRNA
+114,Processing of DNA double-strand break ends
+115,Cyclin A:Cdk2-associated events at S phase entry
+116,mRNA decay by 5' to 3' exoribonuclease
+117,Inactivation of APC/C via direct inhibition of the APC/C complex
+118,Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components
+119,TFAP2 (AP-2) family regulates transcription of growth factors and their receptors
+120,Switching of origins to a post-replicative state
+121,Protein-protein interactions at synapses
+122,Removal of the Flap Intermediate from the C-strand
+123,Telomere C-strand synthesis initiation
+124,Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase
+125,PINK1-PRKN Mediated Mitophagy
+126,Serotonin Neurotransmitter Release Cycle
+127,Polo-like kinase mediated events
+128,Pre-NOTCH Processing in Golgi
+129,Recruitment of NuMA to mitotic centrosomes
+130,Signaling by Insulin receptor
+131,APC/C:Cdc20 mediated degradation of Cyclin B
+132,PI-3K cascade:FGFR3
+133,Pyrimidine biosynthesis
+134,Rap1 signalling
+135,Synthesis of Ketone Bodies
+136,Other interleukin signaling
+137,Chaperonin-mediated protein folding
+138,Separation of Sister Chromatids
+139,PI-3K cascade:FGFR4
+140,Insertion of tail-anchored proteins into the endoplasmic reticulum membrane
+141,Signal transduction by L1
+142,APC-Cdc20 mediated degradation of Nek2A
+143,Acetylcholine Neurotransmitter Release Cycle
+144,Cellular Senescence
+145,Protein folding
+146,FRS-mediated FGFR3 signaling
+147,Mitochondrial calcium ion transport
+148,RHO GTPases activate PAKs
+149,PI-3K cascade:FGFR1
+150,FRS-mediated FGFR4 signaling
+151,RNA Polymerase III Transcription Initiation From Type 3 Promoter
+152,Processing of Capped Intronless Pre-mRNA
+153,Dopamine Neurotransmitter Release Cycle
+154,Insulin receptor recycling
+155,Ketone body metabolism
+156,Neurotoxicity of clostridium toxins
+157,HATs acetylate histones
+158,Extra-nuclear estrogen signaling
+159,mTORC1-mediated signalling
+160,Synthesis of UDP-N-acetyl-glucosamine
+161,Mitotic Spindle Checkpoint
+162,Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)
+163,TNFR1-induced NFkappaB signaling pathway
+164,Norepinephrine Neurotransmitter Release Cycle
+165,Insulin processing
+166,Regulation of HSF1-mediated heat shock response
+167,Pre-NOTCH Expression and Processing
+168,G2/M Transition
+169,Mitotic G2-G2/M phases
+170,PI-3K cascade:FGFR2
+171,FRS-mediated FGFR1 signaling
+172,Polymerase switching on the C-strand of the telomere
+173,TCF dependent signaling in response to WNT
+174,Postmitotic nuclear pore complex (NPC) reformation
+175,Glutamate Neurotransmitter Release Cycle
+176,Metalloprotease DUBs
+177,Regulation of RUNX1 Expression and Activity
+178,Constitutive Signaling by AKT1 E17K in Cancer
+179,Transcriptional regulation by RUNX3
+180,Processive synthesis on the C-strand of the telomere
+181,Signaling by NTRK2 (TRKB)
+182,Synthesis of active ubiquitin: roles of E1 and E2 enzymes
+183,Metal ion SLC transporters
+184,Signaling by WNT
+185,Packaging Of Telomere Ends
+186,Telomere Extension By Telomerase
+187,FRS-mediated FGFR2 signaling
+188,Negative regulation of FGFR3 signaling
+189,Downstream signaling of activated FGFR3
+190,Negative regulation of FGFR4 signaling
+191,Platelet calcium homeostasis
+192,Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC)
+193,Downstream signaling of activated FGFR4
+194,RNA Polymerase III Transcription Initiation
+195,"GABA synthesis, release, reuptake and degradation"
+196,Activation of BH3-only proteins
+197,Glycerophospholipid biosynthesis
+198,L1CAM interactions
+199,DNA strand elongation
+200,Transport of the SLBP independent Mature mRNA
+201,SUMOylation of SUMOylation proteins
+202,Regulation of TP53 Activity through Acetylation
+203,Negative regulation of FGFR1 signaling
+204,Recognition and association of DNA glycosylase with site containing an affected purine
+205,RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known
+206,Transferrin endocytosis and recycling
+207,Activation of ATR in response to replication stress
+208,Transport of the SLBP Dependant Mature mRNA
+209,Association of TriC/CCT with target proteins during biosynthesis
+210,Regulation of Glucokinase by Glucokinase Regulatory Protein
+211,Glutamate and glutamine metabolism
+212,Cellular response to heat stress
+213,Nuclear import of Rev protein
+214,Negative regulation of FGFR2 signaling
+215,Regulation of TNFR1 signaling
+216,PI3K/AKT Signaling in Cancer
+217,Nuclear Pore Complex (NPC) Disassembly
+218,Downstream signaling of activated FGFR2
+219,Downstream signaling of activated FGFR1
+220,Signaling by FGFR3 in disease
+221,Signaling by FGFR3 point mutants in cancer
+222,Signalling to ERKs
+223,Recognition and association of DNA glycosylase with site containing an affected pyrimidine
+224,Mitotic Anaphase
+225,Mitotic Metaphase and Anaphase
+226,HSF1 activation
+227,SUMOylation of ubiquitinylation proteins
+228,RET signaling
+229,Vpr-mediated nuclear import of PICs
+230,Rev-mediated nuclear export of HIV RNA
+231,Signaling by NTRK1 (TRKA)
+232,Cleavage of the damaged purine
+233,Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding
+234,Processing of Capped Intron-Containing Pre-mRNA
+235,Signaling by NOTCH
+236,Interactions of Rev with host cellular proteins
+237,RNA Polymerase III Abortive And Retractive Initiation
+238,Depurination
+239,RNA Polymerase III Transcription
+240,NS1 Mediated Effects on Host Pathways
+241,Attenuation phase
+242,Interactions of Vpr with host cellular proteins
+243,Aggrephagy
+244,Transcriptional regulation by RUNX1
+245,G1/S Transition
+246,Inhibition of DNA recombination at telomere
+247,Transport of Ribonucleoproteins into the Host Nucleus
+248,Intra-Golgi traffic
+249,PKMTs methylate histone lysines
+250,SUMOylation of DNA replication proteins
+251,"Interleukin-3, Interleukin-5 and GM-CSF signaling"
+252,Estrogen-dependent gene expression
+253,Telomere C-strand (Lagging Strand) Synthesis
+254,Signaling by FGFR4
+255,SUMOylation of RNA binding proteins
+256,TNF signaling
+257,EPHB-mediated forward signaling
+258,MTOR signalling
+259,Cleavage of the damaged pyrimidine 
+260,Depyrimidination
+261,Death Receptor Signalling
+262,NEP/NS2 Interacts with the Cellular Export Machinery
+263,Signaling by FGFR3
+264,RMTs methylate histone arginines
+265,Rho GTPase cycle
+266,Ubiquitin-dependent degradation of Cyclin D
+267,Export of Viral Ribonucleoproteins from Nucleus
+268,Clathrin-mediated endocytosis
+269,Retrograde transport at the Trans-Golgi-Network
+270,Recycling pathway of L1
+271,mRNA Splicing - Minor Pathway
+272,Signaling by NTRKs
+273,Negative regulation of NOTCH4 signaling
+274,Nonhomologous End-Joining (NHEJ)
+275,Deubiquitination
+276,Membrane Trafficking
+277,Signaling by FGFR1 in disease
+278,PI3K Cascade
+279,Protein localization
+280,HSF1-dependent transactivation
+281,Amino acids regulate mTORC1
+282,Golgi Associated Vesicle Biogenesis
+283,Intrinsic Pathway for Apoptosis
+284,Signaling by FGFR1
+285,SUMOylation of chromatin organization proteins
+286,"Base-Excision Repair, AP Site Formation"
+287,NRAGE signals death through JNK
+288,Uptake and actions of bacterial toxins
+289,Autodegradation of Cdh1 by Cdh1:APC/C
+290,Deadenylation-dependent mRNA decay
+291,Signaling by FGFR2 in disease
+292,Nuclear Envelope Breakdown
+293,Nucleobase biosynthesis
+294,IRS-mediated signalling
+295,Synthesis of PC
+296,tRNA processing
+297,SUMO E3 ligases SUMOylate target proteins
+298,Metabolism of non-coding RNA
+299,snRNP Assembly
+300,Asymmetric localization of PCP proteins
+301,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S"
+302,Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks
+303,Formation of the beta-catenin:TCF transactivating complex
+304,mRNA Splicing - Major Pathway
+305,SLC transporter disorders
+306,Cellular responses to stress
+307,APC/C:Cdc20 mediated degradation of Securin
+308,Kinesins
+309,Extension of Telomeres
+310,IRS-related events triggered by IGF1R
+311,Ion homeostasis
+312,p53-Dependent G1/S DNA damage checkpoint
+313,p53-Dependent G1 DNA Damage Response
+314,Loss of proteins required for interphase microtubule organization from the centrosome
+315,Loss of Nlp from mitotic centrosomes
+316,Signaling by PTK6
+317,Signaling by Non-Receptor Tyrosine Kinases
+318,PIP3 activates AKT signaling
+319,SUMOylation
+320,Viral Messenger RNA Synthesis
+321,IGF1R signaling cascade
+322,Insulin receptor signalling cascade
+323,G1/S DNA Damage Checkpoints
+324,Factors involved in megakaryocyte development and platelet production
+325,Cellular responses to external stimuli
+326,Cdc20:Phospho-APC/C mediated degradation of Cyclin A
+327,Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)
+328,Axon guidance
+329,mRNA Splicing
+330,Phospholipid metabolism
+331,APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1
+332,APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint
+333,AURKA Activation by TPX2
+334,Regulation of PTEN stability and activity
+335,DNA Double Strand Break Response
+336,APC/C:Cdc20 mediated degradation of mitotic proteins
+337,Ion transport by P-type ATPases
+338,Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins
+339,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function
+340,Translocation of SLC2A4 (GLUT4) to the plasma membrane
+341,Ub-specific processing proteases
+342,trans-Golgi Network Vesicle Budding
+343,"Cell death signalling via NRAGE, NRIF and NADE"
+344,RHO GTPases activate PKNs
+345,Transcriptional regulation by small RNAs
+346,Interconversion of nucleotide di- and triphosphates
+347,ROS and RNS production in phagocytes
+348,Ion channel transport
+349,Regulation of APC/C activators between G1/S and early anaphase
+350,ISG15 antiviral mechanism
+351,Iron uptake and transport
+352,Protein ubiquitination
+353,Interleukin-4 and Interleukin-13 signaling
+354,Nervous system development
+355,Intra-Golgi and retrograde Golgi-to-ER traffic
+356,G alpha (12/13) signalling events
+357,Signaling by FGFR2
+358,Nuclear Envelope (NE) Reassembly
+359,Pre-NOTCH Transcription and Translation
+360,Senescence-Associated Secretory Phenotype (SASP)
+361,APC/C-mediated degradation of cell cycle proteins
+362,Regulation of mitotic cell cycle
+363,Regulation of PLK1 Activity at G2/M Transition
+364,Signaling by NOTCH4
+365,Regulation of mRNA stability by proteins that bind AU-rich elements
+366,Intracellular signaling by second messengers
+367,Metabolism of RNA
+368,Mitochondrial translation termination
+369,Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal
+370,Amplification of signal from the kinetochores
+371,Mitochondrial translation elongation
+372,RNA polymerase II transcribes snRNA genes
+373,Antiviral mechanism by IFN-stimulated genes
+374,Signaling by FGFR in disease
+375,Mitochondrial translation initiation
+376,UCH proteinases
+377,Anchoring of the basal body to the plasma membrane
+378,Neurotransmitter release cycle
+379,PCP/CE pathway
+380,Base Excision Repair
+381,EPH-Ephrin signaling
+382,Mitochondrial translation
+383,Constitutive Signaling by Aberrant PI3K in Cancer
+384,MAPK6/MAPK4 signaling
+385,Regulation of insulin secretion
+386,Signaling by FGFR
+387,COPI-dependent Golgi-to-ER retrograde traffic
+388,Vesicle-mediated transport
+389,p75 NTR receptor-mediated signalling
+390,Glycolysis
+391,FOXO-mediated transcription
+392,ESR-mediated signaling
+393,Telomere Maintenance
+394,Synthesis of bile acids and bile salts
+395,Metabolism of nucleotides
+396,Respiratory electron transport
+397,Activation of HOX genes during differentiation
+398,Activation of anterior HOX genes in hindbrain development during early embryogenesis
+399,Gene Silencing by RNA
+400,EML4 and NUDC in mitotic spindle formation
+401,Bile acid and bile salt metabolism
+402,Platelet homeostasis
+403,Disorders of transmembrane transporters
+404,"PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+405,Role of phospholipids in phagocytosis
+406,Cap-dependent Translation Initiation
+407,Eukaryotic Translation Initiation
+408,Synthesis of substrates in N-glycan biosythesis
+409,Resolution of Sister Chromatid Cohesion
+410,Mitotic Prophase
+411,Negative regulation of the PI3K/AKT network
+412,Chromosome Maintenance
+413,Formation of the cornified envelope
+414,Glucose metabolism
+415,Cardiac conduction
+416,Toll Like Receptor 4 (TLR4) Cascade
+417,Integration of energy metabolism
+418,Transcriptional regulation by RUNX2
+419,MHC class II antigen presentation
+420,Golgi-to-ER retrograde transport
+421,RHO GTPases Activate Formins
+422,Host Interactions of HIV factors
+423,"Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins."
+424,Peptide hormone metabolism
+425,"Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein"
+426,Signaling by Interleukins
+427,Developmental Biology
+428,Late Phase of HIV Life Cycle
+429,"Transport of bile salts and organic acids, metal ions and amine compounds"
+430,Beta-catenin independent WNT signaling
+431,Translation
+432,PTEN Regulation
+433,HCMV Late Events
+434,Influenza Viral RNA Transcription and Replication
+435,HIV Life Cycle
+436,Toll-like Receptor Cascades
+437,Major pathway of rRNA processing in the nucleolus and cytosol
+438,Apoptosis
+439,Fcgamma receptor (FCGR) dependent phagocytosis
+440,Influenza Infection
+441,Signaling by Nuclear Receptors
+442,rRNA processing in the nucleus and cytosol
+443,Cilium Assembly
+444,MAPK family signaling cascades
+445,HCMV Early Events
+446,Programmed Cell Death
+447,Muscle contraction
+448,Keratinization
+449,The citric acid (TCA) cycle and respiratory electron transport
+450,Signaling by ROBO receptors
+451,rRNA processing
+452,Signaling by Receptor Tyrosine Kinases
+453,Metabolism of water-soluble vitamins and cofactors
+454,Hemostasis
+455,HIV Infection
+456,HCMV Infection
+457,G alpha (q) signalling events
+458,Signal Transduction
+459,Neuronal System
+460,"Platelet activation, signaling and aggregation"
+461,Diseases of signal transduction by growth factor receptors and second messengers
+462,Antigen processing: Ubiquitination & Proteasome degradation
+463,Metabolism of steroids
+464,Cytokine Signaling in Immune system
+465,Organelle biogenesis and maintenance
+466,RAF/MAP kinase cascade
+467,Transport of small molecules
+468,MAPK1/MAPK3 signaling
+469,Transmission across Chemical Synapses
+470,Metabolism of vitamins and cofactors
+471,Interferon Signaling
+472,SLC-mediated transmembrane transport
+473,Asparagine N-linked glycosylation
+474,Metabolism of proteins
+475,Metabolism of carbohydrates
+476,Class I MHC mediated antigen processing & presentation
+477,Post-translational protein modification
+478,Adaptive Immune System
+479,Metabolism of lipids
+480,Metabolism of amino acids and derivatives
+481,Disease
+482,Innate Immune System
+483,Immune System
+484,Infectious disease
+485,Metabolism
+486,GPCR downstream signalling
+487,Signaling by GPCR
