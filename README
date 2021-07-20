@@ -1,0 +1,5 @@
+Binning_ShiftedPerformanceEvaluation (Complete):
+Bins Genes and then creates split if 90% of the genes between users come from different populations 
+
+PCA_ShiftedPerformanceEvaluation (In progress):
+Using a PCA/TSNE to cluster users based on genes
