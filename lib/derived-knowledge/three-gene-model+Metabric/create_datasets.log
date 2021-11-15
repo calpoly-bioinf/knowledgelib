@@ -1,0 +1,308 @@
+0
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.458838 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.695568 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.687540 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.697174 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.687861 \\
+\bottomrule
+\end{tabular}
+
+1
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.47231 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.696282 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.693762 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.695652 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.695337 \\
+\bottomrule
+\end{tabular}
+
+2
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.472815 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.697967 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.687964 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.698290 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.691836 \\
+\bottomrule
+\end{tabular}
+
+3
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.48116 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.690794 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.687302 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.689524 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.686667 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=3_graphs/graph_0.png'
+4
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.464286 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.700608 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.697406 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.699007 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.692603 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=4_graphs/graph_0.png'
+5
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.47485 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.703422 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.698986 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.702155 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.704056 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=5_graphs/graph_0.png'
+6
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.468348 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.701987 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.700725 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.700410 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.697572 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=6_graphs/graph_0.png'
+7
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.485243 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.687480 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.688761 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.687800 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.693564 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=7_graphs/graph_0.png'
+8
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.488185 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.704023 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.705619 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.705939 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.709451 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=8_graphs/graph_0.png'
+9
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.464708 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.691580 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.684642 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.690634 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.690634 \\
+\bottomrule
+\end{tabular}
+
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 492, in <module>
+    save(A,file=f"{OUTPUT_DIR}{PREFIX}_graphs/graph_{i}.png")
+  File "Three-Gene-Model.py", line 466, in save
+    open(file,"wb").write(g)
+FileNotFoundError: [Errno 2] No such file or directory: 'Three-Gene-Model/seed=9_graphs/graph_0.png'
+10
+Warning: graph has 1536 nodes...layout may take a long time.
+/opt/tljh/user/lib/python3.7/site-packages/pygraphviz/agraph.py:1390: RuntimeWarning: dot: graph is too large for cairo-renderer bitmaps. Scaling by 0.450554 to fit
+
+  warnings.warn(b"".join(errors).decode(self.encoding), RuntimeWarning)
+\begin{tabular}{lllr}
+\toprule
+{} &               Scaling method &                 Genes &  Leave-one-out CV \\
+\midrule
+0 &                Unscaled data &  (ERBB2, ESR1, AURKA) &          0.680292 \\
+1 &  Data after standard scaling &  (ERBB2, ESR1, AURKA) &          0.677757 \\
+2 &   Data after min-max scaling &  (ERBB2, ESR1, AURKA) &          0.682193 \\
+3 &    Data after robust scaling &  (ERBB2, ESR1, AURKA) &          0.681559 \\
+\bottomrule
+\end{tabular}
+
+11
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_11.joblib.z'
+12
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_12.joblib.z'
+13
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_13.joblib.z'
+14
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_14.joblib.z'
+15
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_15.joblib.z'
+16
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_16.joblib.z'
+17
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_17.joblib.z'
+18
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_18.joblib.z'
+19
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_19.joblib.z'
+20
+Traceback (most recent call last):
+  File "Three-Gene-Model.py", line 110, in <module>
+    df_all = load_data_all(OPTIONS['seed'])
+  File "Three-Gene-Model.py", line 85, in load_data_all
+    index = joblib.load(f'/disk/metabric/index_{seed}.joblib.z')    
+  File "/opt/tljh/user/lib/python3.7/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/disk/metabric/index_20.joblib.z'
